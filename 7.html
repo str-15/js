@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			height: 200px;
+			width: 200px;
+			background-color: green;
+			transition: 10s;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<!--подумайте, как переместить див плавно-->
+
+	<script type="text/javascript">
+		document.querySelector(".box").onclick=function(){
+			document.querySelector(".box").style.marginTop="700px"
+		}
+	</script>
+</body>
+</html>

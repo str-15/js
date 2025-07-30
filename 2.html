@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			height: 200px; 
+			width: 200px; 
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+	</div>	
+
+	<script type="text/javascript">
+		document.querySelector(".box").onclick=function(){
+			document.querySelector(".box").style.backgroundColor="green"
+		}
+	</script>
+</body>
+</html>

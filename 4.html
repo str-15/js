@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+		}
+		.box1{
+			height: 200px;
+			width: 200px;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		
+	</div>
+	
+	<div class="box1"></div>
+		
+	<script>
+		document.querySelector(".box").onclick=function(){
+			document.querySelector(".box1").style.display="none"
+		}
+	</script>
+</body>
+</html>

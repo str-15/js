@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box1{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+		}
+		.box2{
+			height: 200px;
+			width: 200px;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+
+	<script type="text/javascript">
+		document.querySelector(".box1").onclick=function(){
+			alert("Клик работает");
+			document.querySelector(".box2").style.display="none";
+		}
+	</script>
+
+</body>
+</html>
